@@ -42,7 +42,7 @@ app.use(express.json()); // parse json bodies
 ////////////////////////////////
 // create a test route
 app.get("/", (req, res) => {
-    res.send("BRTRR LIVE");
+    res.send("BRTRR LIVE i should see this commit now ");
 });
 
 ///////////////////////////////
